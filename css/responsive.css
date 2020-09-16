@@ -1,0 +1,224 @@
+
+
+/*header area*/
+@media (max-width:992px){
+    header{
+
+        background:#343436;
+       
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../images/toggle-icone-bar.png");
+        height: 15px;
+        width: 20px;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar .navbar-brand{
+
+        font-family: 'Open Sans', sans-serif;
+        font-size:35px;
+        font-weight: 600;
+        color:white!important;
+    }
+    .navbar-nav{
+
+        text-align: center;
+        
+    }
+    .navbar-toggler:focus, .navbar-toggler:hover {
+        text-decoration: none;
+        border: none !important;
+        outline: none;
+        
+    }
+    
+    .navbar-nav .nav-item .nav-link {
+        color: white;
+      
+    }
+    
+    .navbar-nav .nav-item .nav-link:hover.nav-link::after{
+
+        transform:scaleX(0);
+    }
+    .right-side-social-icon li a {
+        text-align: center!important;
+        padding-top: 22px !important;
+        color:white;     
+}
+.right-side-social-icon{
+
+    text-align: center;
+}
+}
+/*header area ended*/
+
+
+
+/*********************************************************************************************
+********************************
+****************************
+*******************
+************/
+
+
+/*slider area stated*/
+
+@media (max-width:1200px){
+
+    #slider-area{
+
+        background: url('../images/slider.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+  
+        background-position: center center;
+        
+    }
+    #slider-area .heading h1 {
+        color: #fff;
+        font-size: 50px;
+        font-weight: 700;
+        padding-left: 0px;
+        line-height: 80px;
+        letter-spacing: 3px;
+        margin-left:65px;
+    }
+
+    #slider-area .my-status {
+        width: 60%;
+        height: 50px;
+        background: #404141;
+        margin-left: 65px;
+        margin-top: 30px;
+    }
+}
+@media (max-width:992px){
+    #slider-area{
+
+        background: url('../images/slider.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top:77px;
+    
+        
+    }
+
+    #slider-area .my-status {
+        width: 80%;
+        height: 50px;
+        background: #404141c9;
+        margin-left: 65px;
+        margin-top: 30px;
+    }
+    #slider-area .heading {
+        margin-top: 50px;
+        position: relative;
+    }
+}
+@media (max-width:768px){
+    #slider-area .heading h1 {
+        color: #fff;
+        font-size: 35px;
+        font-weight: 700;
+        padding-left: 0px;
+        line-height: 50px;
+        letter-spacing: 3px;
+        margin-left: 0px;
+    }
+    #slider-area .heading::after{
+
+        content:'';
+        position: absolute;
+        width:50px;
+        height:6px;
+        background:#f3c26b;
+        top:38px;
+        left:0;
+        display:none;
+    
+    }
+    #slider-area .my-status {
+        width: 100%;
+        height: 50px;
+        background: #404141;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    #slider-area .my-status ul li span {
+        display: inline-block;
+        font-family: 'Open Sans', sans-serif;
+        padding: 0px 23px;
+        position: relative;
+        color: #E4D1D1;
+        font-weight: 600;
+    }
+    #slider-area .button {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+}
+@media(max-width:576px){
+
+    #slider-area{
+
+        background: url('../images/slider.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      
+        background-position: center center;
+    
+    }
+    #slider-area .heading h1 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+        padding-left: 0px;
+        line-height: 40px;
+        letter-spacing: 3px;
+        margin-left: 0;
+    }
+}
+@media (max-width:520px){
+
+    #slider-area .my-status ul li span {
+        display: inline-block;
+        font-family: 'Open Sans', sans-serif;
+        padding: 0px 15px;
+        position: relative;
+        color: #E4D1D1;
+        font-weight: 600;
+      
+    }
+}
+@media (max-width:470px){
+    #slider-area .my-status ul li span {
+        display: inline-block;
+        font-family: 'Open Sans', sans-serif;
+        padding: 0px 10px;
+        position: relative;
+        color: #E4D1D1;
+        font-weight: 600;
+    }
+}
+@media (max-width:439px){
+    #slider-area .my-status {
+        width: 100%;
+        height: 98px;
+        background: #404141b3;
+        margin-left: 0px;
+    
+}
+@media (max-width:347px){
+    #slider-area .heading h1 {
+        color: #fff;
+        font-size: 25px;
+        font-weight: 700;
+        padding-left: 0px;
+        line-height: 37px;
+        letter-spacing: 3px;
+        margin-left: 0;
+    }
+}
